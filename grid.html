@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            #grid{
+                border: 5px solid pink;
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                /* >NAVIGATION은 150px로 고정, ARTICLE은 150px를 제외한 나머지 전부다*/
+            }
+            div{
+                border: 5px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="grid">
+            <div>NAVIGATION</div>
+            <div>ARTICLE</div>
+        </div>
+    </body>
+</html>
+<!-- caniuse.com에서 현재 웹브라우저들이 얼마나 그 기술을 채택하고 있는지를 통계내서 보여주는 사이트 -->
